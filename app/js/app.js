@@ -1,0 +1,17 @@
+const pessoa = new Pessoa('Olivia', 20, new Date(2003, 3, 5));
+console.log('Pessoa:');
+console.log('Nome:', pessoa.nome);
+console.log('Idade:', pessoa.idade);
+console.log('Data de Nascimento:', pessoa.dataNascimento);
+const pessoaFisica = new PessoaFisica('João', 25, new Date(1997, 4, 21), '123.456.789-00');
+console.log('\nPessoa Física:');
+console.log('Nome:', pessoaFisica.nome);
+console.log('Idade:', pessoaFisica.idade);
+console.log('Data de Nascimento:', pessoaFisica.dataNascimento);
+console.log('CPF:', pessoaFisica.cpf);
+const pessoaJuridica = new PessoaJuridica('Empresa', 10, new Date(2012, 1, 5), '12.345.678/0001-00');
+console.log('\nPessoa Jurídica:');
+console.log('Nome:', pessoaJuridica.nome);
+console.log('Idade:', pessoaJuridica.idade);
+console.log('Data de Nascimento:', pessoaJuridica.dataNascimento);
+console.log('CNPJ:', pessoaJuridica.cnpj);

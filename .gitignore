@@ -1,0 +1,17 @@
+.project
+.classpath
+.settings/
+/bin/
+.sonar
+/target
+.factorypath
+.directory
+
+*.iml
+*/rebel.xml
+*/nb-configuration.xml
+rebel.xml
+*.class
+
+generated/
+/.DS_Store
